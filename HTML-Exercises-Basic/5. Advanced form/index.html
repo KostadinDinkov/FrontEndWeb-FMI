@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>User information</legend>
+			<label for="username">Username</label>
+			<input type="text" name="username" placeholder="Username"><br>
+			<label for="password">Password</label>
+			<input type="password" name="password" placeholder="Password"><br>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Personal Information</legend>
+			<label for="Fname">First name:</label><br>
+			<input type="text" name="Fname">
+			<br>
+			<label for="Lname">Last name:</label><br>
+			<input type="text" name="Lname">
+			<br>
+			<input type="radio" name="Sex" value="Male">
+			<label for="Male">Male</label>
+			<br>
+			<input type="radio" name="Sex" value="Female">
+			<label for="Female">Female</label>
+			<br>
+			<label for="favourite">Favourite Food</label>
+			<select name="favourite" id="favourite">
+				<option value="chocolate">Chocolate</option>
+				<option value="meat">Meat</option>
+			</select>
+		</fieldset>
+		<input type="submit" value="Register">
+		<input type="reset" value="Reset">
+	</form>
+</body>
+</html>
