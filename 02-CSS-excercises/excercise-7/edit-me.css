@@ -1,0 +1,56 @@
+body {
+    text-align: justify;
+}
+
+p {
+    text-indent: 10px;
+}
+
+#editor-text-container {
+    position: relative;
+}
+
+#logo {
+    float: right;
+}
+
+#logo2 {
+    float: left;
+}
+
+#logo3 {
+display: none;
+}
+
+#text-div {
+    display: inline;
+}
+
+.strike-out {
+    text-decoration: line-through;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+p:first-of-type {
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}
+
+p:nth-of-type(3) {
+    word-spacing: 10px;
+}
