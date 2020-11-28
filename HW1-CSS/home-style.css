@@ -1,0 +1,131 @@
+html {
+    position: relative;
+    height: 100%;
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(-100deg, #A2F2F1 0%, #B19AFE 100%);
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+header div{
+    float: left;
+}
+
+.searchbar{
+    border-radius: 20px;
+    border-width: 2px;;
+    border-style: solid;
+    height: 50%;
+    font-size: 0.75rem;
+    margin: 10px;
+    width: 20%;
+    padding: 0.2%;
+}
+
+.page {
+    /* display: flex; */
+
+}
+
+#id-card {
+    max-width: 18rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+}
+
+#id-card * {
+    display: initial;
+    margin: 4%;
+}
+
+#id-card div:first-of-type {
+    font-size: 1.25rem;
+}
+
+#id-footer {
+    background-color: lightgrey;
+    width: 100%;
+    margin: 0;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.logout {
+    padding: 7px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #A2F2F1;
+    background-color: white;
+}
+
+.feed {
+    max-width: 55rem;
+    width: 40%
+}
+
+.feed:first-child {
+    background-color: #A2F2F1;
+}
+
+
+.content {
+    background-color: white;
+    display: flex;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+#blue {
+    background-color: #669AFE 30%;
+}
+
+.search {
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    width: 80%;
+    height: 30px;
+    margin-top: 2%;
+}
+.photo {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.content-text {
+    padding: 5px;;
+    display: block;
+}
+
+img {
+    position: relative;
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 50%;
+    margin: 2%;
+}

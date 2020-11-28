@@ -1,0 +1,76 @@
+html {
+    position: relative;
+    height: 100%;
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(-100deg, #A2F2F1 0%, #B19AFE 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+#white-field {
+    background-color: white;
+    width: 90%;
+    max-width: 32rem;
+    height: 60%;
+    padding: 2.5rem;
+    border-radius: 7px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#white-field div {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+#white-field a {
+    position: relative;
+    left: 74%;
+}
+
+form legend {
+    color: #848694;
+    font-size: 1.5em;
+}
+
+form input {
+    width: 100%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: rgb(184, 190, 240);
+    font-size: 1.1rem;
+}
+
+form input:focus {
+    border-color: rgb(87, 112, 218);
+}
+
+#submit {
+    background-color: rgb(85, 188, 214);
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    width: 30%;
+    max-width: 10rem;
+    position: relative;
+    left: 70%;
+    color: white;
+}
+
+#white-field * {
+    margin-top: 2%;
+}
